@@ -4,14 +4,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+
 @Controller
-public class Login {
+public class Register {
+
 	
-
-	@RequestMapping(value = "/Login", method = RequestMethod.GET)
-	public String getLoginPage(){
-		System.out.println("Testing :----------------");
-		return "test";
+	@RequestMapping(value = "/register", method = RequestMethod.GET)
+	public String getRegisterPage(){
+		System.out.println("Register :----------------");
+		return "register";
 	}
-
 }
