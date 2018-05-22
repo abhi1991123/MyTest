@@ -104,7 +104,7 @@ form button[type=submit] {
     
     </a>
     <br>
-    <a href=".Register">Click here For New Register
+    <a href="register">Click here For New Register
     
     </a>
 </form>
